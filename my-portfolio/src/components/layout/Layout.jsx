@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Box } from '@mui/material';
 import Navbar from './Navbar';
-import Sidebar from '../../../../src/components/layout/Sidebar';
+import Sidebar from './Sidebar';
 import { DRAWER_WIDTH } from '../../constants/layout';
 
 const Layout = ({ children }) => {
