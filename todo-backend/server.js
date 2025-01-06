@@ -10,7 +10,7 @@ const app = express();
 // Updated CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-url.netlify.app', 'http://localhost:5174']
+    ? ['https://advanced-todo-9cre.onrender.com', 'http://localhost:5174']
     : 'http://localhost:5174',
   credentials: true
 }));
