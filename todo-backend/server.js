@@ -10,8 +10,8 @@ const app = express();
 // Updated CORS configuration
 app.use(cors({
   origin: process.env.NODE_ENV === 'production' 
-    ? ['https://your-frontend-url.netlify.app', 'http://localhost:5173']
-    : 'http://localhost:5173',
+    ? ['https://your-frontend-url.netlify.app', 'http://localhost:5174']
+    : 'http://localhost:5174',
   credentials: true
 }));
 
