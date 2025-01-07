@@ -29,15 +29,15 @@ api.interceptors.request.use((config) => {
 });
 
 export const auth = {
-  register: (data) => api.post('/api/auth/register', data),
-  login: (data) => api.post('/api/auth/login', data),
-  getProfile: () => api.get('/api/auth/profile'),
+  register: (data) => api.post('/auth/register', data),
+  login: (data) => api.post('/auth/login', data),
+  getProfile: () => api.get('/auth/profile'),
 };
 
 export const todos = {
-  getAll: () => api.get('/api/todos'),
-  create: (data) => api.post('/api/todos', data),
-  update: (id, data) => api.patch(`/api/todos/${id}`, data),
+  getAll: () => api.get('/todos'),
+  create: (data) => api.post('/todos', data),
+  update: (id, data) => api.patch(`/todos/${id}`, data),
   delete: (id) => api.delete(`/todos/${id}`),
 };
 
