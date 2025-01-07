@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Build frontend
-cd todo-advanced
+cd my-portfolio
 npm install
 npm run build
 
